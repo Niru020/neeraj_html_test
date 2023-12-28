@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/Submit.php" method="post">
+        
+        User Name: <input type="text" placeholder="User Name"> <br>
+        Password: <input type="password" placeholder="Password"><br>
+        <input type="submit" value="Submit">
+        
+    </form>
+    <form action="/Submit.php" method="post">
+        <label for="User Name">User Name:<input type="text" placeholder="User Name"> <br></label><br>
+     
+        <label for="Password">Password: <input type="password" placeholder="Password"><br></label><br>
+        DOB: <input type="date"> <br>
+     <br>
+     File: <input type="file"> <br>
+     <br>
+     Color: <input type="color"> <br>
+     <br>
+     range: <input type="range"><br>
+     <br>
+     
+     Gender: <input type="radio" name="gender" id="Male" value="Male"> 
+     <label for="Male">Male</label>
+     <input type="radio" name="gender" id="Female" value="Female"> 
+     <label for="Female">Female</label>
+     <input type="radio" name="gender" id="Other" value="Other"> 
+     <label for="Other">Other</label> 
+     <br>
+     Sports <br>
+      <label for="Cricket">Cricket : </label>
+     <input type="checkbox" id="Cricket" name="Sports"> <br>
+     <label for="Chess">Chess :</label>
+     <input type="checkbox" id="Chess" name="Sports"> <br>
+     <label for="Hokey">Hokey : </label>
+     <input type="checkbox" id="Hokey" name="Sports">
+     <br> <br>
+     <label for="Fruits">Choose a Fruit:</label>
+     <select name="Fruits">
+        <option value="Apple">Apple</option>
+        <option value="Banana">Banana</option>
+        <option value="Lichi">Lichi</option>
+    </select>
+    <br><br>
+    Feedback here: <br>
+    <textarea name="Feedback" id="" cols="30" rows="10">Default Text here</textarea>
+     <br><br>
+     <input type="button"> I aggre with T&C  <br>
+     <br><br>
+     <br>
+     <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
